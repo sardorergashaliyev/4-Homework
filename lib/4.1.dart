@@ -7,13 +7,13 @@ class Birinchi extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Container(
-        color: Color.fromARGB(255, 255, 255, 255),
+        color: const Color.fromARGB(255, 255, 255, 255),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              color: Color.fromARGB(255, 194, 39, 39),
+              color: const Color.fromARGB(255, 194, 39, 39),
               height: 100,
               width: 300,
               child: const Center(
@@ -27,7 +27,7 @@ class Birinchi extends StatelessWidget {
               ),
             ),
             Container(
-              color: Color.fromARGB(255, 14, 91, 255),
+              color: const Color.fromARGB(255, 14, 91, 255),
               height: 100,
               width: 280,
               child: const Center(
@@ -41,13 +41,13 @@ class Birinchi extends StatelessWidget {
               ),
             ),
             Container(
-                color: Color.fromARGB(255, 69, 255, 59),
+                color: const Color.fromARGB(255, 69, 255, 59),
                 height: 200,
                 width: 330,
                 padding: const EdgeInsets.only(right: 50, bottom: 55),
                 child: Center(
                   child: Container(
-                    color: Color.fromARGB(255, 33, 243, 243),
+                    color: const Color.fromARGB(255, 33, 243, 243),
                     height: 50,
                     width: 200,
                     child: const Center(
@@ -62,7 +62,7 @@ class Birinchi extends StatelessWidget {
                   ),
                 )),
             Container(
-              color: Color.fromARGB(255, 205, 218, 34),
+              color: const Color.fromARGB(255, 205, 218, 34),
               height: 300,
               width: 400,
               child: const Text(
